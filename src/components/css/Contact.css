@@ -1,0 +1,17 @@
+/* Contact.css */
+
+.contact-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    color: #333;
+  }
+  
+  .contact-container p {
+    color: #666;
+  }
+  

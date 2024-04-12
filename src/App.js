@@ -3,7 +3,12 @@
 import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Projects from './components/Projects';
+import Introduction from './components/Introduction';
+import Skills from './components/Skills';
+import Education from './components/Education';
+import WorkExperience from './components/WorkExperience';
+import Learning from './components/Learning';
+import MLAI from './components/MLAI';
 import Contact from './components/Contact';
 import './App.css';
 
@@ -13,7 +18,12 @@ function App() {
       <Header />
       <main>
         <About />
-        <Projects />
+        <Introduction />
+        <Skills />
+        <Education />
+        <WorkExperience />
+        <Learning />
+        <MLAI />
         <Contact />
       </main>
     </div>

@@ -1,0 +1,19 @@
+/* Introduction.css */
+
+.introduction-container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Customize the font size */
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  

@@ -1,0 +1,15 @@
+/* Header.css */
+
+.header-container {
+    padding: 20px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Customize the font size */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.2rem; /* Customize the font size */
+    margin-right: 20px; /* Add margin between nav items */
+  }
+  
