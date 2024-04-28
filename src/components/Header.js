@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header-container"> {/* Add a class name */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light"> {/* Add Bootstrap classes */}
         <div className="container"> {/* Add Bootstrap container class */}
-          <a className="navbar-brand" href="#">Your Logo</a> {/* Customize with your logo */}
+          <a className="navbar-brand" href="/">Your Logo</a> {/* Customize with your logo */}
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
