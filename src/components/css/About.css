@@ -1,17 +1,36 @@
 /* About.css */
 
 .about-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #f9f9f9; /* Add background color */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  font-family: 'Roboto', sans-serif; /* Use Google font Roboto */
+}
+
+.about-container h2 {
+  margin-bottom: 20px;
+  color: #1a1a1a; /* Darken font color */
+  font-size: 2.5rem; /* Increase font size */
+}
+
+.about-container p {
+  color: #333; /* Darken font color */
+  line-height: 1.8;
+  font-size: 1.2rem; /* Increase font size */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 15px; /* Adjust padding for smaller screens */
   }
   
   .about-container h2 {
-    color: #333;
+    font-size: 2rem; /* Adjust font size for smaller screens */
   }
   
   .about-container p {
-    color: #666;
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
-  
+}

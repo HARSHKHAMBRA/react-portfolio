@@ -1,19 +1,61 @@
 /* Introduction.css */
 
 .introduction-container {
-    margin-top: 20px;
-  }
-  
-  .card {
-    border: none;
-    border-radius: 10px;
-  }
-  
-  .card-title {
-    font-size: 1.5rem; /* Customize the font size */
-  }
-  
-  .card-text {
-    color: #666;
-  }
-  
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+.card {
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.additional-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icon-block {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.info-text {
+  color: #888;
+  font-size: 1.1rem;
+}
